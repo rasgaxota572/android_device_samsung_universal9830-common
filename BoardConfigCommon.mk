@@ -40,11 +40,6 @@ Kernel (Image separado)
 TARGET_PREBUILT_KERNEL := $(COMMON_PATH)/prebuilt/Image
 BOARD_KERNEL_IMAGE_NAME := Image
 
-DTB separado (OBRIGATÓRIO nesse caso)
-
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-BOARD_PREBUILT_DTBIMAGE_DIR := $(COMMON_PATH)/prebuilt/dtb/
-
 DTBO
 
 BOARD_PREBUILT_DTBOIMAGE := $(COMMON_PATH)/prebuilt/dtbo.img
